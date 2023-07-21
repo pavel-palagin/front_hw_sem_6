@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 31px;
+    /* padding-bottom: 629px; */
+}
+
+.main__info {
+    margin-top: 89px;
+    margin-bottom: 171px;
+}
+
+/* .main__image {
+    margin-top: 89px;
+    margin-bottom: 171px;
+}
+ */
+
+.title {
+    margin-bottom: 17px;
+}
+
+.text {
+    margin-bottom: 37px;
+}
+
+.logos {
+    padding-top: 97px;
+    padding-bottom: 96px;
+}
