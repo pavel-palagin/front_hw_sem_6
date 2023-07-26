@@ -23,8 +23,9 @@ a {
 }
 
 .main {
-    width: 1920px;
-    height: 943px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -43,6 +44,7 @@ a {
     align-items: center;
     margin-left: 375px;
     margin-right: 500px;
+
 }
 
 .header__logo {
@@ -51,6 +53,8 @@ a {
     flex-shrink: 0;
     margin-right: 14px;
 }
+
+
 
 .tagline {
     color: #000;
@@ -86,6 +90,7 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    border: 1px solid transparent;
 }
 
 .menu__link {
@@ -95,7 +100,21 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    border: 1px solid transparent;
 }
+
+.menu__link:hover {
+    color: #F25822;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.menu__link__home:hover {
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
 
 .main__content {
     display: flex;
@@ -141,44 +160,48 @@ a {
 
 
 .button {
-    width: 140px;
-    height: 50px;
-    flex-shrink: 0;
-    border: 1px solid #F25822;
     border-radius: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
-    margin-right: 108px;
-}
-
-.link__start {
-    display: flex;
     color: #FFF;
     font-family: Gilroy-Bold;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 15px 35px;
+    padding: 1rem 2rem;
+    margin-right: 72px;
+    border: 1px solid transparent;
+}
+
+.button:hover {
+    border: 1px solid #000;
+    color: #F25822;
+    background-color: #fff;
 }
 
 
+
 .link__video {
-    display: flex;
-    align-items: center;
     color: #AAA;
     font-family: Gilroy-Bold;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    border: 1px solid transparent;
+}
+
+.link__video:hover {
+    border: 1px solid #000;
+    color: #F25822;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 
-
 .logos {
-    width: 1920px;
-    height: 243px;
+
     display: flex;
     align-items: center;
     margin-left: 345px;
@@ -186,9 +209,4 @@ a {
     gap: 48px;
 }
 
-.logo__link {
-    width: 160px;
-    height: 50px;
-    flex-shrink: 0;
-    
-}
+
