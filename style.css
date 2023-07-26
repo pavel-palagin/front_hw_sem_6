@@ -17,6 +17,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: Gilroy-SemiBold;
+    src:url(fonts/gilroy/Gilroy-SemiBold.ttf) format('truetype');
+    font-weight: semibold;
+    font-style: normal;
+}
+
 
 a {
     text-decoration: none;
